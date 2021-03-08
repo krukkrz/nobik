@@ -1,0 +1,147 @@
+.navbar {
+    background-color: white;
+    height: 85px;
+    width: 100vw;
+}
+
+.bottom-border {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 3pt;
+}
+
+.card-wrapper {
+    padding: 0;
+    min-height: 550px;
+}
+
+.story-card {
+    margin: auto;
+    min-height: 550px;
+    width: 330px;
+    background-color: white;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 3pt;
+}
+
+.story-card h1 {
+    padding-left: 20px;
+    font-size: 15pt;
+    font-weight: 900;
+}
+
+.story-card p {
+    text-align: justify;
+    padding: 20px;
+}
+
+.card-pic {
+    width: fit-content;
+    margin: auto;
+    height: 250px;
+}
+
+.card-pic img {
+    height: 250px;
+}
+
+.first {  
+    min-height: 600px;
+    height: 85vh;
+}
+
+.second {
+    min-height: 600px;
+    height: 85vh;
+    background: rgb(199, 230, 214);
+}
+
+.third {
+    min-height: 600px;
+    height: 85vh;
+}
+
+.footer {
+    color: white;
+    background-color: rgb(159, 168, 164);
+    min-height: 100px;
+    height: 10vh;
+    font-size: 8pt;
+}
+
+.error {
+    min-height: 600px;
+    height: 85vh;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.error img {
+    max-height: 400px;
+}
+
+.error h1 {
+    font-size: 30pt;
+    font-weight: 800;
+}
+
+.welcome-right img{
+    margin: auto;
+    min-height: 500px;
+    height: 60vh;
+}
+
+.text {
+    margin: auto;
+    max-width: 30vw;
+}
+
+.text p{
+    font-size: 15pt;
+}
+
+.title {
+    font-size: 30pt;
+    font-weight: 800;  
+}
+
+.logo {
+    margin-left: 10vw;
+    font-family: 'Emblema One', cursive;
+    font-size: 30pt;
+}
+
+.fancy-quote h1 {
+    font-size: 50pt;
+    /* font-family: 'Tienne', serif; */
+    font-family: 'Vidaloka', serif;
+    margin: 40px;
+}
+
+.button {
+    margin-top: 20px;
+	background-color: black;
+	border-radius:42px;
+    border-color: black;
+    border-style: solid;
+	display:inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    font-weight: 800;
+}
+.button:hover {
+	background-color: white;
+    color: black;
+    border-color: black;
+    border-style: solid;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
