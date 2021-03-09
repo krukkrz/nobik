@@ -106,6 +106,8 @@
 .title {
     font-size: 30pt;
     font-weight: 800;  
+    line-height: 45px;
+    margin-bottom: 15px;
 }
 
 .logo {
@@ -116,8 +118,8 @@
 
 .fancy-quote h1 {
     font-size: 50pt;
-    font-family: 'Vidaloka', serif;
-    margin: 40px;
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 40px;
 }
 
 .button {
