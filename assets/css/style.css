@@ -53,8 +53,7 @@
 }
 
 .second {
-    min-height: 600px;
-    height: 85vh;
+    min-height: 85vh;
     background: rgb(199, 230, 214);
 }
 
