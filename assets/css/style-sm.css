@@ -1,0 +1,38 @@
+@media (max-width: 600px){
+
+    .third {
+        min-height: 600px;
+        height: 85vh;
+    }
+
+    .footer {
+        color: white;
+        background-color: rgb(159, 168, 164);
+        min-height: 100px;
+        height: 10vh;
+        font-size: 8pt;
+    }
+
+    .text {
+        max-width: 80vw;
+    }
+
+    .text p{
+        font-size: 13pt;
+    }
+    
+    .title {
+        font-size: 23pt;
+        font-weight: 800;  
+    }
+
+    .story-card {
+        min-height: 550px;
+        width: auto;
+        background-color: white;
+    
+        border-style: solid;
+        border-color: black;
+        border-width: 3pt;
+    }
+}

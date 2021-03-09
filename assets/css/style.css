@@ -10,7 +10,7 @@
 }
 
 .card-wrapper {
-    padding: 0;
+    padding: 30px;
     min-height: 550px;
     margin: 10px;
 }
@@ -91,12 +91,11 @@
 .welcome-right img{
     margin: auto;
     min-height: 500px;
-    height: 60vh;
+    max-height: 65vh;
 }
 
 .text {
     margin: 9vw;
-    /* margin: auto; */
     max-width: 30vw;
 }
 
@@ -107,56 +106,6 @@
 .title {
     font-size: 30pt;
     font-weight: 800;  
-}
-
-@media (max-width: 992px){
-    .second {
-        height: auto;
-    }
-}
-
-@media (max-width: 600px){
-
-    .first {  
-        min-height: 300px;
-        height: 75vh;
-    }
-    .third {
-        min-height: 600px;
-        height: 85vh;
-    }
-
-    .footer {
-        color: white;
-        background-color: rgb(159, 168, 164);
-        min-height: 100px;
-        height: 10vh;
-        font-size: 8pt;
-    }
-
-    .text {
-        max-width: 80vw;
-    }
-
-    .text p{
-        font-size: 13pt;
-    }
-    
-    .title {
-        font-size: 23pt;
-        font-weight: 800;  
-    }
-
-    .story-card {
-        margin: 30px;
-        min-height: 550px;
-        width: auto;
-        background-color: white;
-    
-        border-style: solid;
-        border-color: black;
-        border-width: 3pt;
-    }
 }
 
 .logo {

@@ -1,0 +1,10 @@
+@media (max-width: 992px){
+    .first {  
+        min-height: 75vh;
+        height: auto;
+    }
+
+    .second {
+        height: auto;
+    }
+}
