@@ -205,15 +205,14 @@
 }
 
 .dropdown {
-    margin-top: 8px;
-    background-color: white;
-    border-style: solid;
-    border-color: black;
-    border-width: 3pt;
+    margin-top: 0px;
+    border-style: none;
+    width: fit-content;
+    flex-grow: unset;
+    margin-right: 8vw;
 }
 
 .dropdown a {
-    line-height: 60px;
     color: black;
     font-size: 25px;
     font-weight: 800;

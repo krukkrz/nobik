@@ -7,4 +7,21 @@
     .second {
         height: auto;
     }
+
+    .dropdown {
+        margin-top: 8px;
+        background-color: white;
+        border-style: solid;
+        border-color: black;
+        border-width: 3pt;
+    }
+    
+    .dropdown a {
+        line-height: 60px;
+        color: black;
+        font-size: 25px;
+        font-weight: 800;
+        text-decoration: none;
+        margin: 30px;
+    }
 }
