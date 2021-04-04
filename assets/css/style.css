@@ -78,6 +78,10 @@
     font-size: 20pt;
 }
 
+.error-text {
+    margin-bottom: 50px;
+}
+
 .error img {
     max-height: 400px;
 }

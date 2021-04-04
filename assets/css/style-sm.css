@@ -35,4 +35,12 @@
         border-color: black;
         border-width: 3pt;
     }
+
+    .error img {
+        max-height: 200px;
+    }
+
+    .error-text {
+        margin-bottom: 10px;
+    }
 }
