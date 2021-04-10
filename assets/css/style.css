@@ -1,3 +1,7 @@
+.container-fluid a{
+    text-decoration: none;
+}
+
 .navbar {
     background-color: white;
     height: 85px;
@@ -47,7 +51,7 @@
     height: 250px;
 }
 
-.first {  
+.fixed-height {  
     min-height: 600px;
     height: 85vh;
 }
@@ -55,11 +59,6 @@
 .second {
     min-height: 85vh;
     background: rgb(199, 230, 214);
-}
-
-.third {
-    min-height: 600px;
-    height: 85vh;
 }
 
 .footer {

@@ -10,7 +10,10 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/style-sm.css" rel="stylesheet">
     <link href="assets/css/style-md.css" rel="stylesheet">
+    <link href="assets/css/getting-started/getting-started.css" rel="stylesheet">
+
     <script src="assets/js/main.js"></script>
+    <script src="components/components.js"></script>
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Emblema+One&display=swap" rel="stylesheet">
@@ -31,84 +34,68 @@
   </head>
   <body>
     <div class="container-flex">
-        <nav class="navbar navbar-light bottom-border">
-            <div class="container-fluid">
-              <span class="navbar-brand mb-0 h1 logo">Nobik</span>
-            </div>
-        </nav>
-        <div class="first row align-items-center">
-            <div class="col-sm-6">
-                <div class="text">
-                    <div class="title">
-                        Przejmij kontrolę nad aplikacją
-                    </div>
-                    <p>
-                      Dodawanie nowych produktów, konfiguracji użytkowników czy zarządzanie cennikiem nie musi obdywać się przez dział programistów. Wszystko to możesz teraz edytować za pomocą <b>Nobik</b>.
-                    </p>
-                    <a href="./error.html">
-                      <div class="button">Zacznij</div>
-                    </a>
-                </div>
-            </div>
-            <div class="d-none d-sm-block col-sm-6 welcome-right">
-                <img src="assets/images/main.svg">
-            </div>
-        </div>
-        <div class="second row align-items-center justify-content-center">
-          <div class="card-wrapper col-lg-3">
-            <div class="story-card">
-              <div class="card-pic">
-                <img src="./assets/images/social.svg">
-              </div>
+        <header-component></header-component>
+        <div class="row fixed-height align-items-center">
+          <div class="col-sm-5 screenshots fixed-height">
+            <img src="./assets/images/getting-started-1.svg" style="width: 30vw;">
+          </div>
+          <div class="col-sm-7">
+            <div class="description">
               <h1>
-                Skupienie na produkcie
+                Dodawaj konfiguracje w przejrzystym interfejsie użytkownika
               </h1>
-              <p>
-                Wprowadzenie nowego produktu lub usługi w aplikacji często wymaga wielu spotkań z osobami które będą tę usługę budować. Z <b>Nobik</b> możesz skupić się na tym co najważniejsze - na <b>produkcie</b>.
-              </p>
+              Phasellus cursus aliquet odio, hendrerit egestas nisi commodo vel. Sed posuere tellus at libero lacinia pretium. Vestibulum efficitur sem a vehicula lacinia. Nullam elementum tincidunt gravida. Vivamus maximus risus varius tortor maximus, in imperdiet mauris lobortis. Curabitur sit amet blandit eros. Aliquam efficitur ex a dictum gravida.
+            </div>
+          </div>
+        </div>
+        <div class="row fixed-height align-items-center">
+          <div class="col-sm-7">
+            <div class="description">
+              <h1>
+                Prosta integracja
+              </h1>
+              Phasellus cursus aliquet odio, hendrerit egestas nisi commodo vel. Sed posuere tellus at libero lacinia pretium. Vestibulum efficitur sem a vehicula lacinia. Nullam elementum tincidunt gravida. Vivamus maximus risus varius tortor maximus, in imperdiet mauris lobortis. Curabitur sit amet blandit eros. Aliquam efficitur ex a dictum gravida.
+            </div>
+          </div>
+          <div class="col-sm-5 screenshots fixed-height">
+            <img src="./assets/images/code-snippet.svg" style="width: 42vw;">
+          </div>
+        </div>
+        <div class="row fixed-height align-items-center">
+          <div class="col-12">
+            <div class="examples-headline">
+              <h1>
+                Potrzebujesz przykładów użycia?
+              </h1>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="example">
+              <h1>
+                Przykład X
+              </h1>
+              Phasellus cursus aliquet odio, hendrerit egestas nisi commodo vel. Sed posuere tellus at libero lacinia pretium. Vestibulum efficitur sem a vehicula lacinia. Nullam elementum tincidunt gravida. Vivamus maximus risus varius tortor maximus, in imperdiet mauris lobortis. Curabitur sit amet blandit eros. Aliquam efficitur ex a dictum gravida.
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="example">
+              <h1>
+                Przykład X
+              </h1>
+              Phasellus cursus aliquet odio, hendrerit egestas nisi commodo vel. Sed posuere tellus at libero lacinia pretium. Vestibulum efficitur sem a vehicula lacinia. Nullam elementum tincidunt gravida. Vivamus maximus risus varius tortor maximus, in imperdiet mauris lobortis. Curabitur sit amet blandit eros. Aliquam efficitur ex a dictum gravida.
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="example">
+              <h1>
+                Przykład X
+              </h1>
+              Phasellus cursus aliquet odio, hendrerit egestas nisi commodo vel. Sed posuere tellus at libero lacinia pretium. Vestibulum efficitur sem a vehicula lacinia. Nullam elementum tincidunt gravida. Vivamus maximus risus varius tortor maximus, in imperdiet mauris lobortis. Curabitur sit amet blandit eros. Aliquam efficitur ex a dictum gravida.
+            </div>
+          </div>
+        </div>
 
-            </div>
-          </div>
-          <div class="card-wrapper col-lg-3">
-            <div class="story-card">
-              <div class="card-pic">
-                <img src="./assets/images/one.svg">
-              </div>
-              <h1>
-                Niezależność
-              </h1>
-              <p>
-                Błąd w cenie, literówka w nazwie, produkt którego już nie ma - nawet drobne poprawki często muszą przejść przez kilka osób. Czemu nie scentralizować usługi zarządzania aplikacją tak abyś miał pełną kontrolę nad jej zawartością?
-              </p>
-            </div>
-          </div>
-          <div class="card-wrapper  col-lg-3">
-            <div class="story-card">
-              <div class="card-pic">
-                <img src="./assets/images/two.svg">
-              </div>
-              <h1>
-                Elastyczność
-              </h1>
-              <p>
-                Dzięki <b>Nobik</b> możesz skupić się na budowaniu skalowalnych rozwiązań. Dodanie nowej usługi, produktu lub innego elementu aplikacji w nowej konfiguracji jest teraz banalnie proste. Pozwól swojej aplikacji rosnąć razem z Twoimi pomysłami.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="third row align-items-center justify-content-center">
-          <div class="col-sm-8 fancy-quote" style="text-align: center;">
-            <h1>Pozwól swojej aplikacji rosnąć</h1>
-            <a href="./error.html">
-              <div class="button">Zacznij</div>
-            </a>
-          </div>
-        </div>
-        <div class="footer row align-items-center justify-content-center">
-          <div class="col-sm-9">
-            <p>Copyright&copy Krzysztof Kruk</p>
-          </div>
-        </div>
+        <footer-component></footer-component>
     </div>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap" rel="stylesheet">
