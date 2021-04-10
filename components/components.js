@@ -19,12 +19,10 @@ class Header extends HTMLElement {
                 aria-expanded="false" 
                 aria-label="Toggle navigation">
               </button>
-              <div class="collapse navbar-collapse dropdown" id="navbarSupportedContent">                
-                <!-- <button class="button-nav outline">Zaloguj</button>
-                <button class="button-nav">Zarejestruj</button> -->
-                <a href="./error.html">Zaloguj się</a>
+              <div class="collapse navbar-collapse dropdown" id="navbarSupportedContent">               
+                <a href="./error.html" onclick="updateCounter()">Zaloguj się</a>
                 <br>
-                <a href="./error.html">Zarejestruj się</a>
+                <a href="./error.html" onclick="updateCounter()">Zarejestruj się</a>
               </div>
             </div>
         </nav>
@@ -58,8 +56,8 @@ class GetStartedButton extends HTMLElement {
     connectedCallback() {
 
         this.innerHTML = `
-        <a href="./getting-started.html">
-            <div class="button">Dowiedz się więcej</div>
+        <a href="./error.html">
+            <div class="button" onclick="updateCounter()">Dowiedz się więcej</div>
         </a>
         `
     }
